@@ -1,0 +1,89 @@
+
+@import "minxin.scss";
+
+.download{
+	.title{
+		margin-top: rem(77);	
+		margin-bottom: rem(61);
+		text-align: center;
+		@include font-color(53.33,#42c8f9);
+		font-weight: bold;
+	}
+	.bg{
+		width: 100%;
+		height: rem(560);
+		background:url('../images/bg.png') no-repeat;
+	  	background-size: 100% 100%;
+	}
+	.desc{
+		margin-top: rem(37);
+		margin-bottom: rem(111);
+		text-align: center;
+		@include font-color(32,#999999);
+	}
+	.btn{
+		width: rem(538);
+		height: rem(89);
+		display: block;
+		margin:0 auto;
+		border-radius: rem(40);
+		margin-bottom: rem(26);
+		font-size: 0;
+		.icon{
+			width: rem(50);
+			height: rem(58);
+			display: inline-block;
+			margin-right: rem(33);
+			margin-left: rem(148);
+			margin-top: rem(11);
+			vertical-align: top;
+		}
+		&.btn-android{
+			background:#42c8f9;
+			line-height: rem(89);
+			border:2px solid #fff;
+			@include font-color(40,#fff);
+			.android-icon{
+				background:url('../images/android-icon.png') no-repeat;
+	  			background-size: 100% 100%;
+			}
+		}
+		&.btn-iphone{
+			background:#fff;
+			@include font-color(40,#42c8f9);
+			border:2px solid #42c8f9;
+			.iphone-icon{
+				background:url('../images/iphone-icon.png') no-repeat;
+	  			background-size: 100% 100%;
+			}
+			.right{
+			    padding-top:rem(7);
+				text-align: left;
+				display: inline-block;
+				font-size:0;
+				.span{
+		    	    display: block;
+				    font-size: rem(40);
+			    }
+			    .tip{
+					font-size: rem(24);
+					line-height: rem(24)
+				}
+			}
+		}
+	}
+	.footer{
+		margin-top: rem(70);
+		margin-bottom: rem(20);
+		text-align: center;
+		@include font-color(24,#999999);
+		.logo{
+			width: rem(33);
+			height: rem(25);
+			display: inline-block;
+			vertical-align: middle;
+			background:url('../images/logo.png') no-repeat;
+	  		background-size: 100% 100%;
+		}
+	}
+}
