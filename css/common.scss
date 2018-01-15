@@ -23,27 +23,28 @@
 	}
 	.btn{
 		width: rem(538);
-		height: rem(89);
+		height: rem(90);
 		display: block;
 		margin:0 auto;
 		border-radius: rem(40);
 		margin-bottom: rem(26);
 		font-size: 0;
+		box-sizing:border-box;
 		.icon{
 			width: rem(50);
 			height: rem(58);
 			display: inline-block;
 			margin-right: rem(33);
 			margin-left: rem(148);
-			margin-top: rem(11);
 			vertical-align: top;
 		}
 		&.btn-android{
 			background:#42c8f9;
-			line-height: rem(89);
-			border:2px solid #fff;
+			line-height: rem(90);
+			border:2px solid #42c8f9;
 			@include font-color(40,#fff);
 			.android-icon{
+				margin-top: rem(14);
 				background:url('../images/android-icon.png') no-repeat;
 	  			background-size: 100% 100%;
 			}
@@ -53,11 +54,12 @@
 			@include font-color(40,#42c8f9);
 			border:2px solid #42c8f9;
 			.iphone-icon{
+				margin-top: rem(12);
 				background:url('../images/iphone-icon.png') no-repeat;
 	  			background-size: 100% 100%;
 			}
 			.right{
-			    padding-top:rem(7);
+			    padding-top:rem(4);
 				text-align: left;
 				display: inline-block;
 				font-size:0;

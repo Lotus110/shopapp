@@ -38,27 +38,28 @@ body {
   color: #999999; }
 .download .btn {
   width: 5.38rem;
-  height: 0.89rem;
+  height: 0.9rem;
   display: block;
   margin: 0 auto;
   border-radius: 0.4rem;
   margin-bottom: 0.26rem;
-  font-size: 0; }
+  font-size: 0;
+  box-sizing: border-box; }
   .download .btn .icon {
     width: 0.5rem;
     height: 0.58rem;
     display: inline-block;
     margin-right: 0.33rem;
     margin-left: 1.48rem;
-    margin-top: 0.11rem;
     vertical-align: top; }
   .download .btn.btn-android {
     background: #42c8f9;
-    line-height: 0.89rem;
-    border: 2px solid #fff;
+    line-height: 0.9rem;
+    border: 2px solid #42c8f9;
     font-size: 0.4rem;
     color: #fff; }
     .download .btn.btn-android .android-icon {
+      margin-top: 0.14rem;
       background: url("../images/android-icon.png") no-repeat;
       background-size: 100% 100%; }
   .download .btn.btn-iphone {
@@ -67,10 +68,11 @@ body {
     color: #42c8f9;
     border: 2px solid #42c8f9; }
     .download .btn.btn-iphone .iphone-icon {
+      margin-top: 0.12rem;
       background: url("../images/iphone-icon.png") no-repeat;
       background-size: 100% 100%; }
     .download .btn.btn-iphone .right {
-      padding-top: 0.07rem;
+      padding-top: 0.04rem;
       text-align: left;
       display: inline-block;
       font-size: 0; }
