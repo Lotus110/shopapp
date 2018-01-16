@@ -11,7 +11,7 @@
 	}
 	.bg{
 		height: rem(560);
-		@include bg-image('../images/bg');
+		background-image: url("../images/bg@2x.png");
 		margin:0 rem(60);
 	  	background-size: 100% 100%;
 	}

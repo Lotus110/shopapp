@@ -2,12 +2,7 @@ $ratio: 100;
 @function rem($args) { @return $args/$ratio+rem; }
 @mixin font-color($font, $color) { font-size: rem($font); color: $color; }
 @mixin height-line($height) { height: rem($height); line-height: rem($height); }
-@mixin bg-image($url){
-  background-image: url($url + "@2x.png");
-  @media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3){
-    background-image: url($url + "@3x.png");
-  }
-}
+
 html, body, header, h1, h3, h6, input, ul, li, p{ margin: 0; padding: 0; }
 a,button,input, div{-webkit-tap-highlight-color:rgba(255,0,0,0);}
 a { text-decoration: none;
