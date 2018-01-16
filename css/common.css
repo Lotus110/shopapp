@@ -30,9 +30,6 @@ body {
   background-image: url("../images/bg@2x.png");
   margin: 0 0.6rem;
   background-size: 100% 100%; }
-  @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
-    .download .bg {
-      background-image: url("../images/bg@3x.png"); } }
 .download .desc {
   margin-top: 0.37rem;
   margin-bottom: 1.11rem;
