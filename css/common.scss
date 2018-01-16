@@ -10,9 +10,9 @@
 		font-weight: bold;
 	}
 	.bg{
-		width: 100%;
 		height: rem(560);
 		@include bg-image('../images/bg');
+		margin:0 rem(60);
 	  	background-size: 100% 100%;
 	}
 	.desc{
@@ -34,14 +34,14 @@
 			width: rem(50);
 			height: rem(58);
 			display: inline-block;
-			margin-right: rem(33);
+			margin-right: rem(27);
 			margin-left: rem(148);
 			vertical-align: top;
 		}
 		&.btn-android{
 			background:#42c8f9;
 			line-height: rem(90);
-			border:2px solid #42c8f9;
+			border:1px solid #42c8f9;
 			@include font-color(40,#fff);
 			.android-icon{
 				margin-top: rem(14);
@@ -52,9 +52,9 @@
 		&.btn-iphone{
 			background:#fff;
 			@include font-color(40,#42c8f9);
-			border:2px solid #42c8f9;
+			border:1px solid #42c8f9;
 			.iphone-icon{
-				margin-top: rem(12);
+				margin-top: rem(10);
 				background:url('../images/iphone-icon.png') no-repeat;
 	  			background-size: 100% 100%;
 			}
